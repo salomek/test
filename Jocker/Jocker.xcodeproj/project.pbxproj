@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B82D9E271E05583100A7E5F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82D9E261E05583100A7E5F1 /* AppDelegate.swift */; };
+		B82D9E291E05583100A7E5F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82D9E281E05583100A7E5F1 /* ViewController.swift */; };
+		B82D9E2C1E05583100A7E5F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B82D9E2A1E05583100A7E5F1 /* Main.storyboard */; };
+		B82D9E2E1E05583100A7E5F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B82D9E2D1E05583100A7E5F1 /* Assets.xcassets */; };
+		B82D9E311E05583100A7E5F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B82D9E2F1E05583100A7E5F1 /* LaunchScreen.storyboard */; };
+		B82D9E3C1E05583100A7E5F1 /* JockerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82D9E3B1E05583100A7E5F1 /* JockerTests.swift */; };
+		B82D9E471E05583100A7E5F1 /* JockerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82D9E461E05583100A7E5F1 /* JockerUITests.swift */; };
+		B82D9E551E055BBC00A7E5F1 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82D9E541E055BBC00A7E5F1 /* ViewController2.swift */; };
+		B87FCF6A1E06BFC10025BAD3 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87FCF691E06BFC10025BAD3 /* File.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B82D9E381E05583100A7E5F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B82D9E1B1E05583100A7E5F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B82D9E221E05583100A7E5F1;
+			remoteInfo = Jocker;
+		};
+		B82D9E431E05583100A7E5F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B82D9E1B1E05583100A7E5F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B82D9E221E05583100A7E5F1;
+			remoteInfo = Jocker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B82D9E231E05583100A7E5F1 /* Jocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B82D9E261E05583100A7E5F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B82D9E281E05583100A7E5F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B82D9E2B1E05583100A7E5F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B82D9E2D1E05583100A7E5F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B82D9E301E05583100A7E5F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B82D9E321E05583100A7E5F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B82D9E371E05583100A7E5F1 /* JockerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JockerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B82D9E3B1E05583100A7E5F1 /* JockerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JockerTests.swift; sourceTree = "<group>"; };
+		B82D9E3D1E05583100A7E5F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B82D9E421E05583100A7E5F1 /* JockerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JockerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B82D9E461E05583100A7E5F1 /* JockerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JockerUITests.swift; sourceTree = "<group>"; };
+		B82D9E481E05583100A7E5F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B82D9E541E055BBC00A7E5F1 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		B87FCF691E06BFC10025BAD3 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B82D9E201E05583100A7E5F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B82D9E341E05583100A7E5F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B82D9E3F1E05583100A7E5F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B82D9E1A1E05583100A7E5F1 = {
+			isa = PBXGroup;
+			children = (
+				B82D9E251E05583100A7E5F1 /* Jocker */,
+				B82D9E3A1E05583100A7E5F1 /* JockerTests */,
+				B82D9E451E05583100A7E5F1 /* JockerUITests */,
+				B82D9E241E05583100A7E5F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B82D9E241E05583100A7E5F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B82D9E231E05583100A7E5F1 /* Jocker.app */,
+				B82D9E371E05583100A7E5F1 /* JockerTests.xctest */,
+				B82D9E421E05583100A7E5F1 /* JockerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B82D9E251E05583100A7E5F1 /* Jocker */ = {
+			isa = PBXGroup;
+			children = (
+				B82D9E261E05583100A7E5F1 /* AppDelegate.swift */,
+				B82D9E281E05583100A7E5F1 /* ViewController.swift */,
+				B82D9E541E055BBC00A7E5F1 /* ViewController2.swift */,
+				B87FCF691E06BFC10025BAD3 /* File.swift */,
+				B82D9E2A1E05583100A7E5F1 /* Main.storyboard */,
+				B82D9E2D1E05583100A7E5F1 /* Assets.xcassets */,
+				B82D9E2F1E05583100A7E5F1 /* LaunchScreen.storyboard */,
+				B82D9E321E05583100A7E5F1 /* Info.plist */,
+			);
+			path = Jocker;
+			sourceTree = "<group>";
+		};
+		B82D9E3A1E05583100A7E5F1 /* JockerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B82D9E3B1E05583100A7E5F1 /* JockerTests.swift */,
+				B82D9E3D1E05583100A7E5F1 /* Info.plist */,
+			);
+			path = JockerTests;
+			sourceTree = "<group>";
+		};
+		B82D9E451E05583100A7E5F1 /* JockerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B82D9E461E05583100A7E5F1 /* JockerUITests.swift */,
+				B82D9E481E05583100A7E5F1 /* Info.plist */,
+			);
+			path = JockerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B82D9E221E05583100A7E5F1 /* Jocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B82D9E4B1E05583100A7E5F1 /* Build configuration list for PBXNativeTarget "Jocker" */;
+			buildPhases = (
+				B82D9E1F1E05583100A7E5F1 /* Sources */,
+				B82D9E201E05583100A7E5F1 /* Frameworks */,
+				B82D9E211E05583100A7E5F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jocker;
+			productName = Jocker;
+			productReference = B82D9E231E05583100A7E5F1 /* Jocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B82D9E361E05583100A7E5F1 /* JockerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B82D9E4E1E05583100A7E5F1 /* Build configuration list for PBXNativeTarget "JockerTests" */;
+			buildPhases = (
+				B82D9E331E05583100A7E5F1 /* Sources */,
+				B82D9E341E05583100A7E5F1 /* Frameworks */,
+				B82D9E351E05583100A7E5F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B82D9E391E05583100A7E5F1 /* PBXTargetDependency */,
+			);
+			name = JockerTests;
+			productName = JockerTests;
+			productReference = B82D9E371E05583100A7E5F1 /* JockerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B82D9E411E05583100A7E5F1 /* JockerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B82D9E511E05583100A7E5F1 /* Build configuration list for PBXNativeTarget "JockerUITests" */;
+			buildPhases = (
+				B82D9E3E1E05583100A7E5F1 /* Sources */,
+				B82D9E3F1E05583100A7E5F1 /* Frameworks */,
+				B82D9E401E05583100A7E5F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B82D9E441E05583100A7E5F1 /* PBXTargetDependency */,
+			);
+			name = JockerUITests;
+			productName = JockerUITests;
+			productReference = B82D9E421E05583100A7E5F1 /* JockerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B82D9E1B1E05583100A7E5F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Mac01;
+				TargetAttributes = {
+					B82D9E221E05583100A7E5F1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B82D9E361E05583100A7E5F1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B82D9E221E05583100A7E5F1;
+					};
+					B82D9E411E05583100A7E5F1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B82D9E221E05583100A7E5F1;
+					};
+				};
+			};
+			buildConfigurationList = B82D9E1E1E05583100A7E5F1 /* Build configuration list for PBXProject "Jocker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B82D9E1A1E05583100A7E5F1;
+			productRefGroup = B82D9E241E05583100A7E5F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B82D9E221E05583100A7E5F1 /* Jocker */,
+				B82D9E361E05583100A7E5F1 /* JockerTests */,
+				B82D9E411E05583100A7E5F1 /* JockerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B82D9E211E05583100A7E5F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B82D9E311E05583100A7E5F1 /* LaunchScreen.storyboard in Resources */,
+				B82D9E2E1E05583100A7E5F1 /* Assets.xcassets in Resources */,
+				B82D9E2C1E05583100A7E5F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B82D9E351E05583100A7E5F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B82D9E401E05583100A7E5F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B82D9E1F1E05583100A7E5F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B82D9E291E05583100A7E5F1 /* ViewController.swift in Sources */,
+				B87FCF6A1E06BFC10025BAD3 /* File.swift in Sources */,
+				B82D9E271E05583100A7E5F1 /* AppDelegate.swift in Sources */,
+				B82D9E551E055BBC00A7E5F1 /* ViewController2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B82D9E331E05583100A7E5F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B82D9E3C1E05583100A7E5F1 /* JockerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B82D9E3E1E05583100A7E5F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B82D9E471E05583100A7E5F1 /* JockerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B82D9E391E05583100A7E5F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B82D9E221E05583100A7E5F1 /* Jocker */;
+			targetProxy = B82D9E381E05583100A7E5F1 /* PBXContainerItemProxy */;
+		};
+		B82D9E441E05583100A7E5F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B82D9E221E05583100A7E5F1 /* Jocker */;
+			targetProxy = B82D9E431E05583100A7E5F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B82D9E2A1E05583100A7E5F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B82D9E2B1E05583100A7E5F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B82D9E2F1E05583100A7E5F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B82D9E301E05583100A7E5F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B82D9E491E05583100A7E5F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B82D9E4A1E05583100A7E5F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B82D9E4C1E05583100A7E5F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Jocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asdasd.Jocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B82D9E4D1E05583100A7E5F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Jocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asdasd.Jocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B82D9E4F1E05583100A7E5F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JockerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asdasd.JockerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jocker.app/Jocker";
+			};
+			name = Debug;
+		};
+		B82D9E501E05583100A7E5F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JockerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asdasd.JockerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jocker.app/Jocker";
+			};
+			name = Release;
+		};
+		B82D9E521E05583100A7E5F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JockerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asdasd.JockerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Jocker;
+			};
+			name = Debug;
+		};
+		B82D9E531E05583100A7E5F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JockerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asdasd.JockerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Jocker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B82D9E1E1E05583100A7E5F1 /* Build configuration list for PBXProject "Jocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B82D9E491E05583100A7E5F1 /* Debug */,
+				B82D9E4A1E05583100A7E5F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B82D9E4B1E05583100A7E5F1 /* Build configuration list for PBXNativeTarget "Jocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B82D9E4C1E05583100A7E5F1 /* Debug */,
+				B82D9E4D1E05583100A7E5F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B82D9E4E1E05583100A7E5F1 /* Build configuration list for PBXNativeTarget "JockerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B82D9E4F1E05583100A7E5F1 /* Debug */,
+				B82D9E501E05583100A7E5F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B82D9E511E05583100A7E5F1 /* Build configuration list for PBXNativeTarget "JockerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B82D9E521E05583100A7E5F1 /* Debug */,
+				B82D9E531E05583100A7E5F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B82D9E1B1E05583100A7E5F1 /* Project object */;
+}
